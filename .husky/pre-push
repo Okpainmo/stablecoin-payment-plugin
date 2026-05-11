@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo "Checking markdown formatting..."
+bun run format:check || exit 1
+
+echo "All checks passed - push approved!"
