@@ -1,0 +1,4 @@
+# Ignore everything for prettier; this repo currently formats markdown only.
+*
+!*.md
+!**/*.md
